@@ -29,6 +29,10 @@ app.get("/new", (req, res) => {
   res.send("Welcome, new user!");
 });
 
+app.get("/edit", (req, res) => {
+  res.send("Stop playing and focus!");
+});
+
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
   });
